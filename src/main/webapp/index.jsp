@@ -3,7 +3,7 @@
 function fun(){
 u=document.getElementById("un").value;
 p=document.getElementById("pw").value;
-if u==admin && p==admin{
+if(u==admin && p==admin){
 document.getElementById("p").innerText="Success";
 }else{
 document.getElementById("p").innerText="Failure";
