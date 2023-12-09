@@ -1,5 +1,9 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+Username
+<input type="text" required /><br/>
+Password
+<input type="text" required/><br/>
+<button type="submit" />
 </body>
 </html>
