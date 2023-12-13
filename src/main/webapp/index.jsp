@@ -9,11 +9,12 @@ document.getElementById("p").innerText="Success";
 }
 </script>
 <body>
-Username
+<h1>Login Form</h1>
+Username:
 <input type="text" id="un" required /><br/>
-Password
+Password:
 <input type="text" id="pw" required/><br/>
-<button type="submit" value="Submit" onclick="fun()"></button>
+<input type="submit" value="Login" onclick="fun()"/>
 <p id="p"></p>
 </body>
 </html>
