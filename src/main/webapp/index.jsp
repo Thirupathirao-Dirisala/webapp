@@ -7,14 +7,14 @@ if(u=="admin" && p=="admin"){
  alert("Success")
 }
 else{
-document.getElementById("p").innerText="Failure";
+alert("Failure")
 }
 
 
 }
 </script>
 <body>
-<h1>Login Form</h1>
+<h1 style="background-color:green">Login Form</h1>
 Username:
 <input type="text" id="un" required /><br/>
 Password:
